@@ -53,7 +53,7 @@ Day - 1 - 30th Sep. 2023
 				
 				Water-fall Model ::: 	Using this water fall model we can achieve this:
 										It is linear in fashion
-										We can go back and revise the plan/design.
+										We cannot go back and revise the plan/design.
 										Water-fall Model cannot accommodate the new changes in mid of the project.
 										If any new changes comes in, it should be considered as a new project.
 						
