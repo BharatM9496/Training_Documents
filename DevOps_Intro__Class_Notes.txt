@@ -6,7 +6,7 @@ Duration : 30th Sep. 2023 to 29th Oct.2023
 
 Start Date: 30th Sep. 2023
 
-9:30AM - 1:30AM (SAT&SUN)
+9:30AM - 1:30PM IST (SAT&SUN)
 
 *************************
 Day - 1 - 30th Sep. 2023
@@ -219,7 +219,7 @@ Day - 1 - 30th Sep. 2023
 							Notify the Testing to pick up the application for further testing 
 							
 						DevOps Approach:
-							Developers create the code & publish the latest src_code to Source Code Repository
+							Developers create the code & publish the latest src_code to GIT
 							
 							Using DevOps Automation:	
 								Build - Compile the source code & Create artifacts (Binaries - *.war)
@@ -400,4 +400,3 @@ Day - 1 - 30th Sep. 2023
 				
 					
 		Github ==> Is a remote repository ==> files and folders. 
-				
