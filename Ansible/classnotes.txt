@@ -1,0 +1,116 @@
+*************************
+Day - 5 - 14th Oct. 2023
+*************************	
+
+IAC Tools :
+
+Fundamentals of Ansible and Terraform :::
+
+	IAC Tools ::
+	
+		- Infra-Structure As Code.
+		
+		How the server provision is done?
+		
+		How the Configurations are done in the servers?
+		
+		Testing :::
+		
+		Test servers are required only during the testing phase. 
+		
+		Infra-Structure Team == using some shell scripts or in-house tools 
+		
+	IAC Tools ::
+	
+		Server Provisioning 		--> Terraform is used for server provisioning/Creations
+		
+		Configuration Management 	--> Ansible to configure the servers - Install/Manage the packages.
+		
+		
+	Fundamentals of Ansible :::
+	
+		What is Ansible ?
+		
+			Ansible - Is a Configuration Management Tool - used to configure the servers - Install/Manage the packages.
+		Purpose/Usecase of Ansible ?
+		
+		Ansible Architecture - and its components.
+		
+			Inventory Files
+			
+			Modules 
+			
+			ansible.cfg
+			
+		Working with Ansible ::
+		
+			- Ansible Adhoc Commands
+			
+					[dev_servers] --> git --version 
+  
+			- Ansible Playbooks  --> To ensure reusability.
+			
+					Install Maven --> 
+			
+					[build_servers]
+
+							install git 
+							install jdk
+							install maven 
+							
+		Installation & Configuration of Ansible :::
+		
+			AWS ::
+			
+				Launch 3 VMs 
+				
+					1 - AC, 2 - Ansible Nodes
+		
+			
+			Authentication? using ssh keys.
+			
+			userid
+			auth ::
+			
+			key based auth. 
+			
+			
+*************************
+Day - 6 - 15th Oct. 2023
+*************************				
+			
+			Ansible Modules :::
+			
+				The modules will be pushed into the target server 
+				Execute
+				Upon Execute, the module will be automatically remove from target server.
+				
+			Ansible Playbooks : written using *.yaml scripts.
+			
+			yaml --> key-value 
+			
+			Playbooks is used to execute the series of tasks.
+			Modules
+				fetch 
+				copy 
+				
+			Reusability ::::
+			
+				Handling Variables in Yaml files ::::
+				Roles ==> used to organise, reuse and share teh ansible components.
+				
+			Variables :::
+			
+				Using Default variables using ansible facts
+				
+				User Defined variables :::
+			
+					- Hardcoded in the playbook using vars key.
+					- Using External Variable files using vars_files key.
+					- Using Extra values using -e by parameterizing the playbook.
+					
+		
+			Register 
+			Handlers 
+			Loops 
+			Roles 
